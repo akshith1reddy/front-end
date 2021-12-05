@@ -11,6 +11,8 @@ import SignUpPage from "./components/SignUpPage";
 import "font-awesome/css/font-awesome.css";
 import Navbar from "react-bootstrap/Navbar";
 
+
+
 const App = () => {
   const checkForAuthToken = (Component) => {
     const user_auth_token = sessionStorage.getItem("user_auth_token");
