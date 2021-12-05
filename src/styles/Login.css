@@ -1,0 +1,128 @@
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+  #lineSeparator {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+  }
+  .text-center {
+    text-align: center !important;
+  }
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.register_btn {
+  background-color: #0000ffa6;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+small-middle-container{
+  margin: auto;
+  width: 40%;
+}
+
+label {
+  /* Other styling... */
+  text-align: right;
+  clear: both;
+  float:left;
+  margin-right:15px;
+}
+
+@media (min-width: 700px) {
+  .container{
+    max-width: 470px;
+  }
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.sign-in {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+fieldset {
+  border: thin solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  padding-left: 40px;
+  background: #fbfbfb;
+}
+legend {
+  color: #678;
+}
+
+.center_div{
+  margin: 0 auto;
+  width:80% /* value of your choice which suits your alignment */
+}
+
+.form-control {
+  width: 95%;
+}
+label small {
+  color: #678 !important;
+}
+span.req {
+  color:maroon;
+  font-size: 112%;
+}
