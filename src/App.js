@@ -10,7 +10,7 @@ import HomePage from "./components/HomePage";
 import SignUpPage from "./components/SignUpPage";
 import "font-awesome/css/font-awesome.css";
 import Navbar from "react-bootstrap/Navbar";
-
+import './App.css'
 
 
 const App = () => {

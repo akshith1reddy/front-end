@@ -36,8 +36,9 @@ const SignUpPage = () => {
     <div className="Login">
       <Form onSubmit={createUserAccount}>
         <div>
-          <h2>Sign Up</h2>
+          <h2 class="text-light d-flex justify-content-center">Sign Up</h2>
         </div>
+        <label htmlFor="username"><i className=" text-light fa fa-user icon"> User Name: </i><span className="req">* </span></label>
         <Form.Group size="lg">
           <Form.Control
             required
@@ -49,6 +50,7 @@ const SignUpPage = () => {
             onChange={(e) => setUserName(e.target.value)}
           />
         </Form.Group>
+        <label htmlFor="password"><i className=" text-light fa fa-key icon"> Password: </i><span className="req">* </span></label>
         <Form.Group size="lg">
           <Form.Control
             required
@@ -93,7 +95,7 @@ const SignUpPage = () => {
           disabled={false}
           className="btn btn-primary btn-lg btn-block"
         >
-          Sign Up!
+          Register!
         </button>
       </Form>
     </div>

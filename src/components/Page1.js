@@ -113,7 +113,7 @@ const Page1 = (props) => {
     <div>
       <div id="mainContainer">
         <div>
-          <label htmlFor="sel1">Pick a DataSet:</label>
+          <label className="text-light text-center" htmlFor="sel1">Select a DataSet:</label>
           <select id="dataSetName" className="form-control m-2">
             {userDatasetList.map((name, index) => (
               <option key={name} value={index}>
@@ -122,8 +122,8 @@ const Page1 = (props) => {
             ))}
           </select>
         </div>
-        <p style={{ fontStyle: "italic", fontWeight: "lighter" }}>
-          Enter the <b>HSHD_NUM</b> below to fetch all the data linked to the
+        <p class="text-light" style={{ fontStyle: "italic", fontWeight: "lighter" }}>
+          Search <b>HSHD_NUM</b> below to fetch all the data linked to the
           number from tables(household, transaction, and products)
         </p>
         <form onSubmit={fetchRecordsOfCustomer}>
@@ -157,13 +157,13 @@ const Page1 = (props) => {
         className="table table-striped table-bordered table-sm"
       >
         <caption
-          id="tableCaption"
+            class="text-light" id="tableCaption"
           style={{ captionSide: "top", textAlign: "center" }}
         >
           {totalTransaction}
         </caption>
-        <thead id="tableHeader" className="table-dark"></thead>
-        <tbody id="tableBody"></tbody>
+        <thead class="text-light" id="tableHeader" className="table-dark"></thead>
+        <tbody class="text-light" id="tableBody"></tbody>
       </table>
     </div>
   );

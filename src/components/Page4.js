@@ -69,7 +69,7 @@ const Page4 = (props) => {
       >
         <div className="mb-3">
           <div className="form-group">
-            <label htmlFor="exampleInputEmail1">
+            <label class="text-light d-flex justify-content-center" htmlFor="exampleInputEmail1">
               Give a Name to the dataset
             </label>
             <input
@@ -82,7 +82,7 @@ const Page4 = (props) => {
               required
             />
           </div>
-          <label htmlFor="csvFile" className="form-label">
+          <label htmlFor="csvFile" className="text-light d-flex justify-content-center form-label">
             Upload <b>"Transactions CSV"</b> file below
           </label>
           <input
@@ -93,7 +93,7 @@ const Page4 = (props) => {
             accept=".csv"
             required
           />
-          <label htmlFor="csvFile" className="form-label">
+          <label htmlFor="csvFile" className="text-light d-flex justify-content-center form-label">
             Upload <b>"Products CSV"</b> file below
           </label>
           <input
@@ -104,7 +104,7 @@ const Page4 = (props) => {
             accept=".csv"
             required
           />
-          <label htmlFor="csvFile" className="form-label">
+          <label htmlFor="csvFile" className="text-light d-flex justify-content-center form-label">
             Upload <b>"HouseHolds CSV"</b> file below
           </label>
           <input
